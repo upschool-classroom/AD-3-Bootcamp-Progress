@@ -12,6 +12,7 @@
 4. Tahmin hakkı kaldığı sürece tekrar sayı istesin
 5. Tahmin hakkı bittiğinde program hakkınız bitti yazıp kapansın
 6. Doğru tahmin edildiğinde Program tebrik edip kapansın
+7. Arayüz olmayacağı için Playground veya Comand Line kullanabilirsiniz.
 
 
 ## -> Ödev Teslim Tarihi: 23 Haziran Cuma 20.00
