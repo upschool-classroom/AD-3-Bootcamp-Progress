@@ -14,4 +14,4 @@
 6. Doğru tahmin edildiğinde Program tebrik edip kapansın
 
 
-## -> Ödev Teslim Tarihi: 19 Haziran Pazartesi 20.00
+## -> Ödev Teslim Tarihi: 23 Haziran Cuma 20.00
