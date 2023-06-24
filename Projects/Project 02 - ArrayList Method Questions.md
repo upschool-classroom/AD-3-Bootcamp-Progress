@@ -104,4 +104,4 @@ val workers = arrayListOf(
 - En yüksek ve en düşük maaş alanları konsola yazdırın.
 - Maaş ortalamasını hesaplayıp konsola yazdırın.
 
-## -> Ödev Teslim Tarihi: -
+## -> Ödev Teslim Tarihi: 7 Temmuz Cuma 20.00
