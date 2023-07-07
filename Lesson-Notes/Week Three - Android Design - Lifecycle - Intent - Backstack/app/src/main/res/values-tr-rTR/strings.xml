@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Week Three</string>
+    <string name="register">Kayıt Ol</string>
+    <string name="name">İsim</string>
+    <string name="age">Yaş</string>
+    <string name="city">Şehir</string>
+    <string name="country">Ülke</string>
+    <string name="email">E-Posta</string>
+    <string name="phone">Telefon</string>
+    <string name="save">Kaydet</string>
+</resources>
