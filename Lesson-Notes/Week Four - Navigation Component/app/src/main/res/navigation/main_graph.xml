@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.canerture.weekfour.HomeFragment"
+        android:label="HomeFragment"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/homeToCart"
+            app:destination="@id/cartFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/cartFragment"
+        android:name="com.canerture.weekfour.CartFragment"
+        android:label="CartFragment"
+        tools:layout="@layout/fragment_cart" >
+        <action
+            android:id="@+id/cartToProfile"
+            app:destination="@id/profileFragment"
+            app:enterAnim="@android:anim/slide_in_left"
+            app:popUpTo="@id/cartFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.canerture.weekfour.ProfileFragment"
+        android:label="ProfileFragment"
+        tools:layout="@layout/fragment_profile" >
+        <argument
+            android:name="name"
+            app:argType="string" />
+    </fragment>
+</navigation>
