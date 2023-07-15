@@ -32,9 +32,13 @@
         android:id="@+id/profileFragment"
         android:name="com.canerture.weekfour.ProfileFragment"
         android:label="ProfileFragment"
-        tools:layout="@layout/fragment_profile" >
+        tools:layout="@layout/fragment_profile">
         <argument
             android:name="name"
             app:argType="string" />
+        <deepLink
+            android:id="@+id/deepLink"
+            android:autoVerify="true"
+            app:uri="www.example.com/profile/{name}" />
     </fragment>
 </navigation>
