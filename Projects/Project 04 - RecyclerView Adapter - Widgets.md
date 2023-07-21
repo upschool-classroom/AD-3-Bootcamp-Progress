@@ -1,7 +1,7 @@
 
-# Project 4 : TO-DO App, Note App, Movie App bu 3'lüden istediğini seçebilirsiniz.
+# Project 4 : TO-DO App & Note App & Movie App.
 
-Bu haftaki uygulamamızın konusunu siz belirliyorsunuz. Minimum gereksinimleri aşağıdan takip edebilirsiniz.
+Bu hafta yazacağınız APP'i başlıkta belirtilen 3 fikirden birisini seçerek yazacaksınız. Minimum gereksinimleri aşağıdan, seçtiğiniz fikrin altındaki açıklamalardan takip edebilirsiniz.
 
 ### Dikkat Edilmesi Gerekenler
 - App 3 sayfadan oluşmalı.
