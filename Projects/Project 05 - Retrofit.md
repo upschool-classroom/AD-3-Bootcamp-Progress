@@ -6,9 +6,9 @@
 ### - Base Url -> https://api.canerture.com/books/
 
 ### - All Books
-Endpoint: all_books.php <br>
-Method: GET <br>
-Parameters: empty
+**Endpoint:** all_books.php <br>
+**Method:** GET <br>
+**Parameters:** empty
 
 #### Sample Response
 ```kotlin
@@ -30,9 +30,9 @@ Parameters: empty
 ```
 
 ### - Book Detail
-Endpoint: get_book_detail.php <br>
-Method: GET <br>
-Parameters: @Query("id")
+**Endpoint:** get_book_detail.php <br>
+**Method:** GET <br>
+**Parameters:** @Query("id")
 
 #### Sample Response
 ```kotlin
