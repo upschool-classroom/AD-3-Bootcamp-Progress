@@ -36,7 +36,7 @@ class ProductsAdapter(
             tvTitle.text = product.title
             tvPrice.text = "${product.price} ₺"
 
-            ivProduct.loadImage(product.image)
+            ivProduct.loadImage(product.imageUrl)
 
             root.setOnClickListener {
                 productListener.onProductClick(product.id ?: 1)
