@@ -39,6 +39,8 @@
 - Kullanıcı Sign Up ve Sign In ekranlarındayken Bottom Navigation'ı görmemeli.
 - Kullanıcı giriş yaptıysa sonraki girişlerde Sign In ve Sign Up'ı görmemeli
 - Veriler "income_expense" collection'ı altında kaydedilecek.
+- income veya expense farkını modelinizdeki bir boolean ile kontrol kaydedin ve kontrol edin.
+- En az 4 değişken olmalı -> docId: String, title: String, price: Double, incomeExpenseType: Boolean (Ekleme yapabilirsiniz 🙂)
 - En az 3 harcama ve 3 gelir tipi bulunmalı. Bunlar seçtirilmeli. (Icon da kullanabilirsiniz ve tasarım olarak da güzel durur. Icon'u firebase'de tutmak zorunda değilsiniz. Dönen tipe göre drawable içinden if komutuyla çağırıp ImageView'a basabilirsiniz.)
 - Veriler 3 sayfada da canlı dinlenecek.
 
