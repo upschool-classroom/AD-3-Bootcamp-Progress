@@ -11,6 +11,7 @@ import com.canerture.week8.common.loadImage
 import com.canerture.week8.common.viewBinding
 import com.canerture.week8.data.model.GetProductDetailResponse
 import com.canerture.week8.data.model.GetProductsResponse
+import com.canerture.week8.data.model.Product
 import com.canerture.week8.databinding.FragmentDetailBinding
 import com.canerture.week8.databinding.FragmentHomeBinding
 import retrofit2.Call
@@ -35,24 +36,21 @@ class DetailFragment : Fragment(R.layout.fragment_detail) {
     }
 
     private fun getProductDetail(id: Int) {
-        MainApplication.productService?.getProductDetail(id)?.enqueue(object : Callback<GetProductDetailResponse> {
-            override fun onResponse(
-                call: Call<GetProductDetailResponse>,
-                response: Response<GetProductDetailResponse>
-            ) {
-                val result = response.body()?.product
+        MainApplication.productService?.getProductDetail(id)?.enqueue(object : Callback<Product> {
+            override fun onResponse(call: Call<Product>, response: Response<Product>) {
+                val result = response.body()
 
                 if (result != null) {
                     with(binding) {
                         tvTitle.text = result.title
                         tvDescription.text = result.description
                         tvPrice.text = "${result.price} ₺"
-                        ivProduct.loadImage(result.imageUrl)
+                        ivProduct.loadImage(result.image)
                     }
                 }
             }
 
-            override fun onFailure(call: Call<GetProductDetailResponse>, t: Throwable) {
+            override fun onFailure(call: Call<Product>, t: Throwable) {
                 Log.e("GetProducts", t.message.orEmpty())
             }
         })
