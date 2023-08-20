@@ -1,5 +1,5 @@
 
-# Project 5 : Firebase - Budget App
+# Project 6 : Firebase - Budget App
 
 ## Screens
 
