@@ -1,7 +1,7 @@
 package com.canerture.weektwo
 
 fun main() {
-    val persons = hashMapOf("Ahmet" to 25, "Yağmur" to 25, Pair("Emre", 26))
+    val persons = mapOf("Ahmet" to 25, "Yağmur" to 25, Pair("Emre", 26))
 
     println("containsKey -> ${persons.containsKey("Emre")}")
     println("containsKey -> ${persons.containsValue(23)}")
